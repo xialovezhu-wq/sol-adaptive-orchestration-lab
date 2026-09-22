@@ -1,0 +1,9 @@
+{
+  "fields": [
+    "record_id",
+    "status",
+    "priority",
+    "attempts",
+    "read_only"
+  ]
+}

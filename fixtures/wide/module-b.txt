@@ -1,0 +1,11 @@
+module=B
+
+forward_accepts=A:ticket-17
+forward_event=evt-17
+forward_handoff=C:token-42
+
+reverse_accepts=C:receipt-9
+reverse_digest=6d1e
+reverse_handoff=A:digest-6d1e
+
+B links both directions but contains neither the forward terminal state nor the reverse policy.

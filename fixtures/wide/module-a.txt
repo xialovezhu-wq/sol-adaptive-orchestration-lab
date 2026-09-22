@@ -1,0 +1,11 @@
+module=A
+
+forward_state=RECEIVED
+forward_event=evt-17
+forward_handoff=B:ticket-17
+
+reverse_policy=read-only
+reverse_expected_digest=6d1e
+reverse_accepts=B:digest-6d1e
+
+A alone cannot prove the forward terminal state or the origin of the reverse receipt.

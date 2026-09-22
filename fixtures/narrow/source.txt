@@ -1,0 +1,10 @@
+record_id=LAB-NARROW-001
+owner=sol-adaptive-orchestration-lab
+status=ready
+priority=medium
+attempts=3
+region=local-only
+output_format=json
+read_only=true
+created_utc=2026-08-23T08:00:36Z
+checksum=6f19c2a8

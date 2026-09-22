@@ -1,0 +1,11 @@
+module=C
+
+forward_accepts=B:token-42
+forward_event=evt-17
+forward_terminal=COMPLETED
+
+reverse_receipt=receipt-9
+reverse_claimed_digest=6d1e
+reverse_requires=A:read-only
+
+C closes the forward direction; the reverse direction closes only after B maps the receipt and A confirms the policy and digest.

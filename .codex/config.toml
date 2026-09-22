@@ -1,0 +1,10 @@
+[features]
+multi_agent = true
+
+[agents.luna_reader]
+description = "Narrow read-only Luna role for field extraction and fixed-format retrieval."
+config_file = "agents/luna-reader.toml"
+
+[agents.terra_explorer]
+description = "Wider read-only Terra role for cross-file tracing and evidence collection."
+config_file = "agents/terra-explorer.toml"

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Delegate Narrow Work to Luna"
+  short_description: "Explicit Luna delegation for one narrow read-only task"
+  default_prompt: "Use $delegate-narrow-work-to-luna to extract the requested fields from the named fixture."
+policy:
+  allow_implicit_invocation: false
